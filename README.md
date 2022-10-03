@@ -1,2 +1,2 @@
-# devweekgit.github.io
-Curriculo do Jornada Dev
+# carlasoaresresume.github.io
+Projeto realizado durante o Jornada Dev da EBAC
