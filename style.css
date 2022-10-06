@@ -7,13 +7,13 @@
 }
 
 body {
-    background-color: #70c6c7;
+    background-color: #3e95aa;
 }
 
 .resume-contents {
-    min-height: 100vh;
-    width: 80%;
-    margin: 2rem auto;
+    min-height: 100%;
+    width: 82%;
+    margin: 5% auto;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
 }
@@ -32,12 +32,12 @@ body {
 }
 
 .left-section-content{
-    padding: 2rem 2rem;
+    padding: 15% 15%;
 }
 
 .profile {
     width: 100%;
-    border-bottom: 2px solid #1B2631;
+    border-bottom: 2px solid #6d6a6d;
 }
 
 .profile .profile-image {
@@ -53,12 +53,12 @@ body {
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
-    padding: 1rem 0;
+    padding: 10% 0;
 }
 
 .profession {
     color: #FDB44B;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
@@ -69,13 +69,13 @@ body {
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
     color: #FDB44B;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: bold;
     display: flex;
     align-items: center;
-    padding-top: 3rem;
+    padding-top: 25%;
 }
 
 .contact-info ul {
@@ -84,19 +84,19 @@ body {
 
 .contact-info ul li,
 .references ul li {
-    padding: .4rem 0;
+    padding: .5% 0;
     display: flex;
     align-items: center;
     color: #d6dbdfaf;
     letter-spacing: 1px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .contact-info ul li i,
 .references ul li i {
-    padding-right: 1rem;
-    font-size: 18px;
-    color: #2E86C1;
+    padding-right: 5%;
+    font-size: 16px;
+    color: #6eb0dc;
 }
 
 .skills ul {
@@ -105,14 +105,14 @@ body {
 .skills ul li p {
     padding: .4rem 0;
     color: #d6dbdfaf;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1px;
     display: flex;
-    align-items: center;
+    align-items: stretch;
     text-transform: uppercase;
 }
 
-.referance-name {
+.reference-name {
     padding-top: 1.5rem;
     padding-bottom: .4rem;
     font-size: 18px;
@@ -121,7 +121,7 @@ body {
     text-transform: uppercase;
 }
 
-.referance-profession {
+.reference-profession {
     font-size: 16px;
     color: #d6dbdfaf;
     letter-spacing: 1px;
@@ -131,7 +131,7 @@ body {
 
 
 .right-section-contents {
-    padding: 2rem 2rem;
+    padding: 5% 5%;
 }
 
 .right-title {
@@ -149,11 +149,12 @@ body {
 .gap {
     padding-bottom: 2rem;
 }
+
 .about-me-contents {
     font-size: 18px;
+    color: #f1f1f1;
     letter-spacing: 1px;
     line-height: 2rem;
-    color: #F1F8FD;
 }
 
 .experience-contents,
@@ -171,16 +172,16 @@ body {
     font-size: 25px;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: #FDB44B;
-    padding-bottom: .4rem;
+    padding-bottom: .5%;
 }
 
 .exp-time-period,
-.educationp-time-period,
+.education-time-period,
 .awards-time-period {
     font-size: 18px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     line-height: 2rem;
 }
 
@@ -190,16 +191,16 @@ body {
     font-size: 25px;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: #FDB44B;
-    padding-bottom: .4rem;
+    padding-bottom: .5%;
 }
 
 .exp-desc,
 .education-desc,
 .awards-desc {
     font-size: 16px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     line-height: 1.5rem;
     border-left: 3px solid #a5a3a3;
     padding-left: 5px;
@@ -225,13 +226,13 @@ body {
     
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:100%) {
     .resume-contents {
         grid-template-columns: repeat(1, 1fr);
     }
 }
 
-@media screen and (max-width:390px) {
+@media screen and (max-width:100%) {
     .resume-contents {
         width: 100%;
         margin: 0 auto;
@@ -280,7 +281,7 @@ body {
     }
 
     .exp-time-period,
-    .educationp-time-period,
+    .education-time-period,
     .awards-time-period {
         font-size: 16px;
     }
